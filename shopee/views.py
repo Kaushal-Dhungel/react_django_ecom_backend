@@ -150,7 +150,7 @@ class RecomView(APIView):
         return Response(serializer.data)
 
 class CommentView(APIView):
-    def get(self,request,foramt = None):
+    def get(self,request,format = None):
         # print(request.query_params.get('id'))
         snippets = Comment.objects.filter(product = request.query_params.get('id'))
         serializer = CommentSerializer(snippets, many=True)
