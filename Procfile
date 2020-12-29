@@ -1,0 +1,1 @@
+web: gunicorn shopeebackend.wsgi
