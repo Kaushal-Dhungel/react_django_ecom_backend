@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '%0&7cq^9zzxh-gt1m&n2trz45)jg=2(-0ft*ubz0+2zk3m#903'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1','reactshopee.herokuapp.com']
 
