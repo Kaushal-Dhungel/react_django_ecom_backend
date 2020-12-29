@@ -90,11 +90,14 @@ WSGI_APPLICATION = 'shopeebackend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd3r1655g7ss945',
+        'HOST': 'ec2-52-206-44-27.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'ermlhuypqmidkx',
+        'PASSWORD': '6b5a0881a8f340743271c70f4a3fe252073ce8010a51c7ab8f0e9ecd07ab93e3'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
