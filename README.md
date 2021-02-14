@@ -1,5 +1,8 @@
 ## An Ecommerce Site Using React And Django Rest Framework
 
+This is the backend of the application. Frontend is managed separately in another repository.
+[Go to Frontend](https://github.com/Kaushal-Dhungel/react_django_ecom)
+
 As the Internet has advanced , it's usage has skyrocketed. In this modern world , companies like Amazon and Flipkart have made fortunes using 
 ecommerce. Almost every sellers out there are going online and doing their businesses. 
 So this project is inspired from the growing digitalisation in the world. 
